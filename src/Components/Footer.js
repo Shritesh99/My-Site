@@ -1,10 +1,15 @@
-import React, { Component } from 'react';
+import React, {
+    Component
+} from 'react';
 
-class Footer extends Component{
+class Footer extends Component {
     render() {
-        return(
-            <footer className="footer footer-simple">
-                <p className="h3 pull-center">Design and Coded with <span role="img">❤️</span> by ME.</p>
+        return (
+            <footer className = "footer" style={{background: '#030303'}}>
+                <div className = "container" >
+                    <h3 className = "text-center" > Design and Coded with <span role="img"> ❤️ </span> by ME.</h3 >
+                    <h3 className = "text-center"><small> Copyright © 2019 Shritesh All Rights Reserved.</small></h3>
+                </div>
             </footer>
         );
     }

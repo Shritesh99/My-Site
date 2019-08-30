@@ -443,7 +443,7 @@ h3 {
 
 .h4,
 h4 {
-  font-size: 1.0625rem;
+  font-size: 1.2625rem;
 }
 
 .h5,
@@ -2379,7 +2379,7 @@ pre code {
   font-size: .875rem;
   font-weight: 400;
   line-height: 1.428571;
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
   background-color: transparent;
   background-clip: padding-box;
   border: 1px solid #cad1d7;
@@ -2400,7 +2400,7 @@ pre code {
 }
 
 .form-control:focus {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
   background-color: #fff;
   border-color: rgba(50, 151, 211, .25);
   outline: 0;
@@ -2419,7 +2419,7 @@ pre code {
 }
 
 select.form-control:focus::-ms-value {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
   background-color: transparent;
 }
 
@@ -4658,7 +4658,7 @@ input[type=submit].btn-block {
   font-size: .875rem;
   font-weight: 400;
   line-height: 1.428571;
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
   vertical-align: middle;
   background: url([svg]) no-repeat right .7rem center/8px 10px;
   background-color: transparent;
@@ -4675,7 +4675,7 @@ input[type=submit].btn-block {
 }
 
 .custom-select:focus::-ms-value {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
   background-color: transparent;
 }
 
@@ -4763,7 +4763,7 @@ input[type=submit].btn-block {
   right: 0;
   padding: .5rem .7rem;
   line-height: 1.428571;
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
   background-color: transparent;
 }
 
@@ -16420,7 +16420,7 @@ fieldset[disabled] .btn-simple:hover {
 }
 
 .dropdown-menu.dropdown-primary .dropdown-header:not([href]):not([tabindex]) {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .dropdown-menu.dropdown-primary .dropdown-item {
@@ -16442,7 +16442,7 @@ fieldset[disabled] .btn-simple:hover {
 }
 
 .dropdown-menu.dropdown-info .dropdown-header:not([href]):not([tabindex]) {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .dropdown-menu.dropdown-info .dropdown-item {
@@ -16464,7 +16464,7 @@ fieldset[disabled] .btn-simple:hover {
 }
 
 .dropdown-menu.dropdown-danger .dropdown-header:not([href]):not([tabindex]) {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .dropdown-menu.dropdown-danger .dropdown-item {
@@ -16486,7 +16486,7 @@ fieldset[disabled] .btn-simple:hover {
 }
 
 .dropdown-menu.dropdown-success .dropdown-header:not([href]):not([tabindex]) {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .dropdown-menu.dropdown-success .dropdown-item {
@@ -16508,7 +16508,7 @@ fieldset[disabled] .btn-simple:hover {
 }
 
 .dropdown-menu.dropdown-warning .dropdown-header:not([href]):not([tabindex]) {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .dropdown-menu.dropdown-warning .dropdown-item {
@@ -17023,7 +17023,7 @@ img {
 }
 
 .modal.modal-default .modal-body p {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .modal.modal-default .form-control:-moz-placeholder,
@@ -17143,7 +17143,7 @@ img {
 }
 
 .modal.modal-primary .modal-body p {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .modal.modal-primary .form-control:-moz-placeholder,
@@ -17263,7 +17263,7 @@ img {
 }
 
 .modal.modal-danger .modal-body p {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .modal.modal-danger .form-control:-moz-placeholder,
@@ -17383,7 +17383,7 @@ img {
 }
 
 .modal.modal-warning .modal-body p {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .modal.modal-warning .form-control:-moz-placeholder,
@@ -17503,7 +17503,7 @@ img {
 }
 
 .modal.modal-success .modal-body p {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .modal.modal-success .form-control:-moz-placeholder,
@@ -17623,7 +17623,7 @@ img {
 }
 
 .modal.modal-info .modal-body p {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .modal.modal-info .form-control:-moz-placeholder,
@@ -17771,7 +17771,7 @@ img {
 
 .modal.modal-black .modal-content {
   background: #1f2251;
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .modal.modal-black .modal-content .modal-header .modal-title,
@@ -17780,7 +17780,7 @@ img {
 }
 
 .modal.modal-black .modal-content .modal-body p {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .modal.modal-black h1,
@@ -17850,7 +17850,7 @@ img {
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .navbar .navbar-wrapper {
@@ -18394,7 +18394,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 h1,
@@ -18419,7 +18419,6 @@ a:hover {
 .h1,
 h1 {
   line-height: 1.05;
-  margin-bottom: 30px;
 }
 
 .h1 small,
@@ -18434,12 +18433,6 @@ h2 {
   line-height: 1.2;
 }
 
-.h2,
-.h3,
-h2,
-h3 {
-  margin-bottom: 30px;
-}
 
 .h3,
 h3 {
@@ -18449,7 +18442,6 @@ h3 {
 .h4,
 h4 {
   line-height: 1.45em;
-  margin-bottom: 15px;
 }
 
 .h4+.category,
@@ -18462,7 +18454,6 @@ h4.title+.category {
 .h5,
 h5 {
   line-height: 1.4em;
-  margin-bottom: 15px;
 }
 
 .h6,
@@ -18472,7 +18463,7 @@ h6 {
 }
 
 p {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
   margin-bottom: 5px;
 }
 
@@ -18484,7 +18475,7 @@ p.description {
   margin-top: 30px;
   margin-bottom: 25px;
   font-weight: 600;
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .title.title-up {
@@ -18551,12 +18542,12 @@ p.description {
 }
 
 .blockquote.blockquote-white {
-  border-color: hsla(0, 0%, 100%, .8);
+  border-color: hsla(0, 0%, 100%, 1);
   color: #fff;
 }
 
 .blockquote.blockquote-white small {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 ol li,
@@ -18565,7 +18556,7 @@ ul li {
 }
 
 pre {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 hr {
@@ -19358,7 +19349,7 @@ a[data-toggle=collapse][aria-expanded=true] .caret {
 .bd-docs .blockquote,
 .bd-docs .blockquote p,
 .bd-docs .card p {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .bd-docs .bd-example {
@@ -19398,7 +19389,7 @@ a[data-toggle=collapse][aria-expanded=true] .caret {
 .bd-docs .card .card-body,
 .bd-docs .form-check,
 .bd-docs label {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .bd-docs .form-check+.btn {
@@ -19431,7 +19422,7 @@ a[data-toggle=collapse][aria-expanded=true] .caret {
 .bd-docs table h5,
 .bd-docs table h6,
 .bd-docs table thead th {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .bd-docs .bd-example .datepicker .tim-icons,
@@ -20069,7 +20060,7 @@ textarea.form-control {
 
 .form-text {
   font-size: .75rem;
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .form-control-lg {
@@ -20475,7 +20466,7 @@ a.badge-success:focus {
 .nav-tabs>.nav-item>.nav-link:hover {
   background-color: transparent;
   border: 1px solid #191f31;
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .nav-tabs>.nav-item>.nav-link.active {
@@ -24649,7 +24640,7 @@ html {
 
 .section-image .description,
 .section-image .info .icon:not(.icon-circle) {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .section-image .card:not(.card-plain) .description,
@@ -24742,7 +24733,7 @@ html {
 
 .page-header .category,
 .page-header .description {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .page-header.page-header-small {
@@ -25147,7 +25138,7 @@ html {
 
 [data-background-color]:not([data-background-color=gray]) .description,
 [data-background-color]:not([data-background-color=gray]) .social-description p {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 [data-background-color]:not([data-background-color=gray]) .checkbox label:after,
@@ -25286,7 +25277,7 @@ html {
 [data-background-color]:not([data-background-color=gray]) .form-group.form-group-no-border .input-group-text,
 [data-background-color]:not([data-background-color=gray]) .input-group-text,
 [data-background-color]:not([data-background-color=gray]) .input-group.form-group-no-border .input-group-text {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 [data-background-color]:not([data-background-color=gray]) .subscribe-line .form-control {
@@ -26921,7 +26912,7 @@ input.datetimepicker[data-color]+.bootstrap-datetimepicker-widget table th.prev 
 }
 
 input.datetimepicker[data-color]+.bootstrap-datetimepicker-widget table th.dow {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 input.datetimepicker[data-color]+.bootstrap-datetimepicker-widget table td.new>div,
@@ -27887,7 +27878,7 @@ select.selectpicker {
 .card .card-header {
   padding: 15px 15px 0;
   border: 0;
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .card .card-header:not([data-background-color]) {
@@ -28525,7 +28516,7 @@ select.selectpicker {
 .card-background .card-description,
 .card-background .category,
 .card-background small {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .card-background .card-title {
@@ -28662,7 +28653,7 @@ select.selectpicker {
 }
 
 .card-blog .text .name {
-  color: hsla(0, 0%, 100%, .8);
+  color: hsla(0, 0%, 100%, 1);
 }
 
 .card-profile,
