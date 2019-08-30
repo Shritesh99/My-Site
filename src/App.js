@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import {
     FullPageSections,
     FullpageSection,
@@ -8,47 +8,56 @@ import {
 
 import "./Css/App.css";
 import Landing from "./Components/Landing";
-// import Navbar from "./Components/Navbar";
+import Insights from "./Components/Insights";
 import Footer from "./Components/Footer";
 import WorkEx from "./Components/WorkEx";
+import Testimonials from "./Components/Testimonials";
 import About from "./Components/About";
+import Awards from "./Components/Awards";
 import Connect from "./Components/Connect";
 import Motivation from "./Components/Motivation";
 import Project from "./Components/Project";
 import Weapons from "./Components/Weapons";
 
 
-function App() {
+class App extends Component {
 
-
-    return ( < div className = "App" >
-        <
-        Fullpage >
-        <
-        FullpageNavigation / >
-        <
-        FullPageSections >
-        <
-        FullpageSection style = {
-            {
-                padding: '1em',
-            }
-        } > < Landing / > < /FullpageSection> <
-        FullpageSection style = {
-            {
-                padding: '1em',
-                overflow: 'scroll'
-            }
-        } > 2 < /FullpageSection> <
-        FullpageSection style = {
-            {
-                padding: '1em',
-                overflow: 'scroll'
-            }
-        } > < /FullpageSection > < /
-        FullPageSections > < /
-        Fullpage > <
-        /div>);
+render() {
+    return ( 
+      <div className = "App" >
+        <Fullpage>
+            <FullPageSections>
+                <FullpageSection style = {{padding: '1em'}}>
+                    <Landing/>
+                    </FullpageSection>
+                    <FullpageSection style = {{padding: '1em',overflow: 'scroll'}}>
+                        <WorkEx/>
+                    </FullpageSection>
+                    <FullpageSection style = {{padding: '1em',overflow: 'scroll'}}>
+                        <Project/>
+                    </FullpageSection>
+                    <FullpageSection style = {{padding: '1em',overflow: 'scroll'}}>
+                        <Awards/>
+                    </FullpageSection>
+                    <FullpageSection style = {{padding: '1em',overflow: 'scroll'}}>
+                        <Testimonials/>
+                    </FullpageSection>
+                    <FullpageSection style = {{padding: '1em',overflow: 'scroll'}}>
+                        <Motivation/>
+                    </FullpageSection>
+                    <FullpageSection style = {{padding: '1em',overflow: 'scroll'}}>
+                        <Insights/>
+                        <Weapons/>
+                    </FullpageSection>
+                    <FullpageSection style = {{padding: '1em',overflow: 'scroll'}}>
+                        <Connect/>
+                    </FullpageSection>
+                </FullPageSections>
+                <Footer/>
+            </Fullpage>
+      </div>
+    );
     }
+}
 
-    export default App;
+export default App;
