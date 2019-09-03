@@ -1,107 +1,85 @@
 import React, { Component } from 'react';
+import Footer from "./Footer";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPhoneAlt, faEnvelope, faUser } from '@fortawesome/free-solid-svg-icons';
 
 class Connect extends Component{
     render() {
         return(
-                <div class="container">
-              <div class="row">
-                <div class="col-md-5">
-                  <h1 class="title">Get in Touch</h1>
-                  <h4 class="description text-white">Do you need more information? Please contact us to find more about our products and services.</h4>
+          <div className="contactus-4" style={{minHeight: "calc(100vh - 100px)"}}>
+            <div class="map">
+              <div className="row justify-content-end">
+              <img className="col-md-6" src={require("../img/contact.svg")}></img>
+              </div>
+            </div>
+            <div className="container">
+              <div className="row">
+                <div className="col-md-5">
+                  <h1 className="title">Let's Have a Talk.</h1>
+                  <h4 className="description text-white">Do you have a big idea?<br/>Let's have a talk and make it real.</h4>
                 </div>
-                <div class="col-md-12 m-auto">
-                  <div class="card card-contact card-raised">
-                    <div class="row">
-                      <div class="col-md-8">
-                        <form role="form" class="p-3" id="contact-form" method="post">
-                          <div class="card-header">
-                            <h4 class="card-title">Send us a message</h4>
+                <div className="col-md-12 m-auto">
+                  <div className="card card-contact card-raised">
+                    <div className="row" style={{marginLeft: "0px", marginRight: "0px"}}>
+                      <div className="col-md-8">
+                        <form role="form" className="p-3" id="contact-form" method="post">
+                          <div className="card-header">
+                            <h3 className="card-title">Give it a Shot.</h3>
                           </div>
-                          <div class="card-body">
-                            <div class="row">
-                              <div class="col-md-6">
-                                <label>First name</label>
-                                <div class="input-group">
-                                  <div class="input-group-prepend">
-                                    <span class="input-group-text"><i class="tim-icons icon-single-02"></i></span>
+                          <div className="card-body">
+                            <div className="row">
+                              <div className="col-md-12">
+                                <h4>Name</h4>
+                                <div className="input-group">
+                                  <div className="input-group-prepend">
+                                    <span className="input-group-text">
+                                    <FontAwesomeIcon icon={faUser} color="#fff"/>
+                                    </span>
                                   </div>
-                                  <input type="text" class="form-control" placeholder="First Name..." aria-label="First Name..."/>
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <div class="form-group">
-                                  <label>Last name</label>
-                                  <div class="input-group">
-                                    <div class="input-group-prepend">
-                                      <span class="input-group-text"><i class="tim-icons icon-caps-small"></i></span>
-                                    </div>
-                                    <input type="text" class="form-control" placeholder="Last Name..." aria-label="Last Name..."/>
-                                  </div>
+                                  <input type="text"  style={{fontSize: "1em"}} className="form-control" placeholder="Your Name Here..." aria-label="Name..."/>
                                 </div>
                               </div>
                             </div>
-                            <div class="form-group">
-                              <label>Email address</label>
-                              <div class="input-group">
-                                <div class="input-group-prepend">
-                                  <span class="input-group-text"><i class="tim-icons icon-email-85"></i></span>
+                            <div className="form-group">
+                              <h4>Email Address</h4>
+                              <div className="input-group">
+                                <div className="input-group-prepend">
+                                  <span className="input-group-text"><FontAwesomeIcon icon={faEnvelope} color="#fff"/></span>
                                 </div>
-                                <input type="text" class="form-control" placeholder="Email Here..."/>
+                                <input type="text" style={{fontSize: "1em"}} className="form-control" placeholder="Your Email Here..."/>
                               </div>
                             </div>
-                            <div class="form-group">
-                              <label>Your message</label>
-                              <textarea name="message" class="form-control" id="message" rows="6"></textarea>
+                            <div className="form-group">
+                              <h4>Your Message</h4>
+                              <textarea name="message" style={{fontSize: "1em"}} className="form-control" id="message" rows="6"></textarea>
                             </div>
-                            <div class="row">
-                              <div class="col-md-6">
-                                <div class="form-check">
-                                  <label class="form-check-label">
-                                    <input class="form-check-input" type="checkbox"/>
-                                    <span class="form-check-sign"></span>
-                                    I'm not a robot
-                                  </label>
-                                </div>
-                              </div>
-                              <div class="col-md-6">
-                                <button type="submit" class="btn btn-primary btn-round pull-right">Send Message</button>
+                            <div className="row">
+                              <div className="col-md-12">
+                                <button type="submit" className="btn btn-primary pull-right">SEND MESSAGE</button>
                               </div>
                             </div>
                           </div>
                         </form>
                       </div>
-                      <div class="col-md-4">
-                        <div class="info text-left bg-info">
-                          <h4 class="card-title">Contact information</h4>
-                          <div class="info info-horizontal mt-5">
-                            <div class="icon">
-                              <i class="tim-icons icon-square-pin"></i>
+                      <div className="col-md-4 bg-info" style={{borderRadius: "7px"}}>
+                        <div className="info text-center">
+                          <h3 className="card-title">Contact Me</h3>
+                          <div className="info info-horizontal">
+                            <div className="icon">
+                              <FontAwesomeIcon icon={faPhoneAlt} color="#fff"/>
                             </div>
-                            <div class="description">
-                              <h5 class="info-title">
-                                345 Street 2
-                                <br/> Creative Tim Tour
-                              </h5>
-                            </div>
-                          </div>
-                          <div class="info info-horizontal">
-                            <div class="icon">
-                              <i class="tim-icons icon-mobile"></i>
-                            </div>
-                            <div class="description">
-                              <h5 class="info-title">
-                                +16(3412) 421 241
-                              </h5>
+                            <div className="description">
+                              <h4 className="info-title" style={{fontWeight: 600}}>
+                                +91 8770493694
+                              </h4>
                             </div>
                           </div>
-                          <div class="info info-horizontal">
-                            <div class="icon">
-                              <i class="tim-icons icon-email-85"></i>
+                          <div className="info info-horizontal">
+                            <div className="icon">
+                            <FontAwesomeIcon icon={faEnvelope} color="#fff"/>
                             </div>
-                            <div class="description">
-                              <h5 class="info-title">
-                                contact@yourwebsite.com
-                              </h5>
+                            <div className="description">
+                                <h4 href="mailto:shritesh.sj@gmail.com" className="info-title" style={{fontWeight: 600}}>shritesh.sj@gmail.com</h4>
                             </div>
                           </div>
                         </div>
@@ -110,7 +88,9 @@ class Connect extends Component{
                   </div>
                 </div>
               </div>
-              </div>
+          </div>
+          <br/>
+          </div>
         );
     }
 }

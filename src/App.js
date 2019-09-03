@@ -6,7 +6,6 @@ import {
     Fullpage
 } from '@ap.cx/react-fullpage'
 
-import "./Css/App.css";
 import Landing from "./Components/Landing";
 import Insights from "./Components/Insights";
 import Footer from "./Components/Footer";

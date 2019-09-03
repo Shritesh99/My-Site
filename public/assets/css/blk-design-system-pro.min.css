@@ -443,7 +443,7 @@ h3 {
 
 .h4,
 h4 {
-  font-size: 1.2625rem;
+  font-size: 1.1625rem;
 }
 
 .h5,
@@ -18572,7 +18572,7 @@ hr {
 
 .icon i,
 .icon svg {
-  font-size: auto-0.75;
+  font-size: 1.5em;
 }
 
 .icon+.icon-text {
@@ -21930,8 +21930,6 @@ html {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: radial-gradient(400px circle at 70% 50%, transparent 0, #1d8cf8 100%);
-  background-position: 23% 10%;
   left: 0;
   top: 0;
 }
@@ -21948,7 +21946,6 @@ html {
   height: 100%;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
-  padding: 35px;
 }
 
 .contactus-4 .info .info {
